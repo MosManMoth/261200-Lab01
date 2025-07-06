@@ -16,9 +16,31 @@ public class Main {
                     //bob.left(120);
                 //}
 
-                for(int i=0; i < 5; i++){
-                    bob.forward(200);
-                    bob.left(145);
-                }
+                //for(int i=0; i < 5; i++){
+                   // bob.forward(200);
+                    //bob.left(145);
+               // }
+                bob.left(85);
+        bob.forward(150);
+        bob.left(85);
+        bob.forward(40);
+        bob.right(145);
+        bob.forward(50);
+        for(int i=0; i < 18; i++)
+        {
+            bob.forward(3);
+            bob.right(6);
+        }
+        bob.forward(60);
+        bob.left(30);
+        bob.forward(100);
+        bob.right(40);
+        bob.forward(150);
+        bob.right(145);
+        bob.forward(100);
+        bob.left(50);
+        bob.forward(50);
+        bob.right(55);
+        bob.forward(43);
         }
     }
